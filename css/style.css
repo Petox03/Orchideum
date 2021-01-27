@@ -1,1 +1,18 @@
 #header{position:fixed;width:100%;}
+.link{
+    color: #87c7be !important;
+    text-decoration: none !important;
+    font-size: 1em !important;
+}
+.link:hover
+{
+    color: #6c569f !important;
+    text-decoration: none !important;
+
+    border-bottom: 1px solid navy;
+
+    transition: all 0.3s ease-out !important;
+
+    font-size: 1.02em !important;
+
+}
