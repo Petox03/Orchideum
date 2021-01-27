@@ -1,0 +1,16 @@
+{
+  "name": "Orchideum",
+  "version": "1.0.0",
+  "description": "Página y sistema web de orchideum",
+  "main": "index.js",
+  "repository": "https://github.com/Petox03/Orchideum.git",
+  "author": "ProgramArte <petox.somart@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "bootstrap": "^5.0.0-beta1",
+    "chart.js": "^2.9.4",
+    "push.js": "^1.0.12",
+    "wow.js": "^1.2.2"
+  }
+}

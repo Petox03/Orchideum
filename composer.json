@@ -1,0 +1,17 @@
+{
+    "name": "programarte/orchideum",
+    "description": "Pagina y sistema web de Orchideum",
+    "type": "project",
+    "authors": [
+        {
+            "name": "ProgramArte",
+            "email": "petox.somart@outlook.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.25",
+        "illuminate/events": "^8.25",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.3"
+    }
+}
