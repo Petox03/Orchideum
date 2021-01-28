@@ -16,3 +16,13 @@
     font-size: 1.02em !important;
 
 }
+.section1
+{
+    background-image: url(../img/imgprueba.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+   
+
+  
+}

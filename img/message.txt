@@ -89,8 +89,6 @@
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ex vitae similique facilis pariatur cupiditate? Labore earum, qui nisi assumenda cupiditate dignissimos accusamus, culpa autem veritatis quasi necessitatibus accusantium perferendis.</h1>
         </section>
 
-
-         
     </div>
 
     <!-- /Contenedor principal -->
