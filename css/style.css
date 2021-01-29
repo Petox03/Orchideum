@@ -1,3 +1,24 @@
+/*salto de línea*/
+@media screen and (min-width: 992px)
+{
+    .sdl
+    {
+        font-size: 0;
+        display: block;
+        margin-top: 70px;
+    }
+}
+@media screen and (max-width: 991px)
+{
+    .sdl
+    {
+        font-size: 0;
+        display: block;
+        margin-top: 25px;
+    }
+}
+
+/*Navbar*/
 #header{position:fixed;width:100%;}
 .link{
     color: #87c7be !important;
@@ -16,13 +37,36 @@
     font-size: 1.02em !important;
 
 }
-.section1
+
+/*Imagen de fondo*/
+.bg-img
 {
     background-image: url(../img/imgprueba.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center center;
     height: 100vh;
-   
-
-  
+}
+.bg-txt
+{
+    color: #87c7be; /*Es temporal el color*/
+    }
+@media screen and (min-width:992px)
+{
+    .bg-txt-title
+    {
+        font-size: 5em;
+        display: block;
+        display: inline-block;
+        line-height: 1.06em;
+    }
+}
+@media screen and (max-width:991px)
+{
+    .bg-txt-title
+    {
+        font-size: 2em;
+        display: block;
+        display: inline-block;
+    }
 }
