@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <style>
+        body{margin:0;padding:0;justify-content:center;align-items:center;min-height:100vh}
+.card{position:relative;background:#fff;width:310px;height:490px;margin:0 auto}
+.card .card-body a{display:inline-block;margin:10px 0 0;padding:10px 20px;text-decoration:none;border:2px solid #f66;color:#f66;font-weight:600}
+.card .card-body button{display:inline-block;margin:10px 0 0;padding:10px 20px;text-decoration:none;border:2px solid #f66;color:#f66;font-weight:600;background-color:#fff}
+.swiper-slide{width:300px}
+    </style>
+</head>
+<body>
+    
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="card" style="border:black solid 1px;"><img src="img/imgprueba.png" width="307.5px"
+                        height="230px" alt="Image not found">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:blue;">Reservas internacionales avanzan hacia el
+                            histórico.</h5>
+                        <p class="card-text" style="color:blue;">Suman 192,292 mdd:Banxico</p>
+                        <p class="date"><strong>31/07/2020 <br></strong></p><button type="button" class="btn"
+                            data-toggle="modal" data-target="#notice">Ver más. </button>
+                    </div>
+                </div><br><br>
+            </div>
+            <div class="swiper-slide">
+                <div class="card" style="border:black solid 1px;"><img src="img/imgprueba.png"
+                        width="307.5px" height="230px" alt="Image not found">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color:blue;">Aumenta el índice semanal de envío de
+                            contenedores de exportación de China</h5>
+                        <p class="date"><strong>31/07/2020</strong></p><button type="button" class="btn"
+                            data-toggle="modal" data-target="#notice2">Ver más. </button>
+                    </div>
+                </div><br><br>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script src="js/swiper.min.js"></script>
+</body>
+</html>

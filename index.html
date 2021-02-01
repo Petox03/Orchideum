@@ -14,12 +14,19 @@
     <!-- Título -->
     <title>Orchideum</title>
 
+    <!-- web page styles -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- carrousel style -->
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="prueba.css">
 
     <!-- Frameworks y librerías -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="node_modules/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
 
 </head>
 
@@ -102,8 +109,7 @@
 
         <!-- servicios -->
         <section id="services">
-            <h1 class="text-center">¿Qué te ayudamos a sanar?</h1>
-            <br><br>
+            <h1 class="text-center mb-5">¿Qué te ayudamos a sanar?</h1>
             <div class="row d-md-flex justify-content-between p-4">
 
                 <div class="col-12 col-md-3 mt-5 mt-md-0">
@@ -139,32 +145,180 @@
         <span class="sdl">-</span>
 
         <!-- causas -->
-        <section id="causes">
+        <section id="causes" class="body">
 
+            <h1 class="text-center mb-5">Por qué nos enfermamos?</h1>
 
+            <div class="swiper-container">
+
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="card carta" style="border:black solid 1px;">
+                            <div class="card-body carta-body">
+                                <h1 class="text-center">1</h1>
+                                <h2>Mala Alimentación y baja/nula actividad física</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card carta" style="border:black solid 1px;">
+                            <div class="card-body carta-body">
+                                <h1 class="text-center">1</h1>
+                                <h2>Mala Alimentación y baja/nula actividad física</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card carta" style="border:black solid 1px;">
+                            <div class="card-body carta-body">
+                                <h1 class="text-center">1</h1>
+                                <h2>Mala Alimentación y baja/nula actividad física</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="card carta" style="border:black solid 1px;">
+                            <div class="card-body carta-body">
+                                <h1 class="text-center">1</h1>
+                                <h2>Mala Alimentación y baja/nula actividad física</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
 
         </section>
-        <!-- c/ausas -->
+        <!-- /causas -->
+
+        <!-- salto de línea -->
+        <span class="sdl">-</span>
+
+        <!-- Testimonios -->
+        <section id="testimonios">
+
+            <div class="gtco-testimonials">
+                <h2>Lo que la gente dice de nosotros</h2>
+                <div class="owl-carousel owl-carousel1 owl-theme">
+                    <div>
+                        <div class="card text-center"><img class="card-img-top"
+                                src="https://images.unsplash.com/photo-1572561300743-2dd367ed0c9a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=300&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=300"
+                                alt="">
+                            <div class="card-body">
+                                <h5>Ronne Galle <br />
+                                    <span> Project Manager </span>
+                                </h5>
+                                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                                    nihil
+                                    impedit quo minus id quod maxime placeat ” </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card text-center"><img class="card-img-top"
+                                src="https://images.unsplash.com/photo-1588361035994-295e21daa761?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=301&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=301"
+                                alt="">
+                            <div class="card-body">
+                                <h5>Missy Limana<br />
+                                    <span> Engineer </span>
+                                </h5>
+                                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                                    nihil
+                                    impedit quo minus id quod maxime placeat ” </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card text-center"><img class="card-img-top"
+                                src="https://images.unsplash.com/photo-1575377222312-dd1a63a51638?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=302&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=302"
+                                alt="">
+                            <div class="card-body">
+                                <h5>Martha Brown<br />
+                                    <span> Project Manager </span>
+                                </h5>
+                                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                                    nihil
+                                    impedit quo minus id quod maxime placeat ” </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="card text-center"><img class="card-img-top"
+                                src="https://images.unsplash.com/photo-1549836938-d278c5d46d20?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=303&ixid=eyJhcHBfaWQiOjF9&ixlib=rb-1.2.1&q=50&w=303"
+                                alt="">
+                            <div class="card-body">
+                                <h5>Hanna Lisem<br />
+                                    <span> Project Manager </span>
+                                </h5>
+                                <p class="card-text">“ Nam libero tempore, cum soluta nobis est eligendi optio cumque
+                                    nihil
+                                    impedit quo minus id quod maxime placeat ” </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- /Testimonios -->
+
+        <!-- salto de línea -->
+        <span class="sdl">-</span>
+
+        <!-- contacto -->
+        <section id="contact">
+            <h1 class="text-center">Contáctanos</h1>
+            <div class="row | p-5">
+                <div class="col-12 col-md-6 | p-5">
+                    <div class="vh | p-3">
+                        <div class="ListIcons">
+                            <ul>
+                                <li>
+                                    <span class="fas fa-map-marker-alt fa-4x color"></span>
+                                    <h4 class="">Calle falsa #123</h4>
+                                </li>
+                                <li>
+                                    <a class="icon-link" href="tel:+52 9831670529">
+                                        <span class="fas fa-phone-alt fa-4x color"></span>
+                                        <h4 class="">+52 983 123 4567</h4>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon-link" href=mailto:ayuda@Chactemali.com>
+                                        <span class="fas fa-envelope fa-4x color"></span>
+                                        <h4 class="">ayuda@Orchideum.com</h4>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="icon-link"
+                                        href="https://www.facebook.com/Chactemali-licor-artesanal-tipo-mezcal-2633725700185229"
+                                        target="_blank">
+                                        <span class="fab fa-facebook-square fa-4x color"></span>
+                                        <h4 class="">Orchideum</h4>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <iframe src="https://www.google.com/maps/d/embed?mid=1JlEtCnnkzah3aCxTUNKaYZpBOFhFqiJu" width="640"
+                        height="480"></iframe>
+                </div>
+            </div>
+        </section>
+        <!-- /contacto -->
 
     </div>
     <!-- /Contenedor principal -->
 
     <!-- scripts -->
+    <script src="js/jquery-3.4.1.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
-    <script src="node_modules/wow.js/dist/wow.min.js"></script>
-    <script src="js/nav-collapse.js"></script>
-    <script src="js/smooth-scroll.min.js"></script>
-    <!-- scriprit for scroll -->
-    <script>
-        smoothScroll.init({
-            selector: '[scroll]', // Clase en la etiqueta a
-            selectorHeader: null, // Selector for fixed headers (must be a valid CSS selector) [optional]
-            speed: 700, // Velocidad
-            easing: 'easeInOutCubic', // Easing pattern to use
-            offset: 0, // Que tan lejos del elemnto va a quedar
-            callback: function (anchor, toggle) { } // funcion después del scrolling
-        });
-    </script>
+    <script src="js/swiper.min.js"></script>
+    <script>var swiper = new Swiper('.swiper-container', { effect: 'coverflow', grabCursor: true, centeredSlides: true, slidesPerView: 'auto', coverflowEffect: { rotate: 20, stretch: 100, depth: 450, modifier: 1, slideShadows: false, }, pagination: { el: '.swiper-pagination', }, }); </script>
+    <script src="node_modules/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <script src="prueba.js"></script>
 
 </body>
 

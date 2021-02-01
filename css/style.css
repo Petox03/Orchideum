@@ -5,7 +5,7 @@
     {
         font-size: 0;
         display: block;
-        margin-top: 70px;
+        margin-top: 80px;
     }
 }
 @media screen and (max-width: 991px)
@@ -19,7 +19,7 @@
 }
 
 /*Navbar*/
-#header{position:fixed;width:100%;}
+#header{position:fixed;width:100%;z-index: 1000;}
 .link{
     color: #87c7be !important;
     text-decoration: none !important;
@@ -70,3 +70,48 @@
         display: inline-block;
     }
 }
+
+/*Listas*/
+.lista{
+    list-style: none; /* Quitamos los marcadores */
+    padding: 0; /* Quitamos el padding por defecto de la lista */
+    margin-left: 1em; /* Separamos la lista de la izquierda */
+}
+
+.lista li::before { /* Añadimos contenido antes de cada elemento de la lista */
+    content: "\2022"; /* Insertamos el marcador */
+    padding-right: 8px; /* Establecemos el espacio entre las viñetas y el list item */
+    color: #6c569f; /* Coloreamos la viñeta */
+}
+
+.icon-link
+{
+    color: black;
+    text-decoration: none;
+}
+.icon-link:hover
+{
+    color: #ccbff7;
+    text-decoration: none;
+    font-size: 3em;
+    transition: all 0.03 ease-in;
+}
+
+.ListIcons
+{
+    margin-left: -10px;
+}
+.ListIcons ul{
+    list-style: none;
+}
+.ListIcons ul li
+{
+    padding: 2px;
+    margin-top: 20px;
+}
+
+.vh
+{
+    border-left:4px solid #87c7be;float:left;
+}
+
