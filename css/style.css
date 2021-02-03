@@ -41,7 +41,7 @@
 /*Imagen de fondo*/
 .bg-img
 {
-    background-image: url(../img/imgprueba.png);
+    background-image: url(../img/planta.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -49,8 +49,9 @@
 }
 .bg-txt
 {
-    color: #87c7be; /*Es temporal el color*/
-    }
+    color: #fff; /*Es temporal el color*/
+}
+.color{color: #87c7be;}
 @media screen and (min-width:992px)
 {
     .bg-txt-title
