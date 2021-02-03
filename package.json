@@ -11,7 +11,6 @@
     "bootstrap": "^5.0.0-beta1",
     "chart.js": "^2.9.4",
     "push.js": "^1.0.12",
-    "remixicon": "^2.5.0",
     "wow.js": "^1.2.2"
   }
 }
