@@ -41,17 +41,19 @@
 /*Imagen de fondo*/
 .bg-img
 {
-    background-image: url(../img/planta.jpg);
+    background-image: url(../img/ocp.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     height: 100vh;
+    
 }
 .bg-txt
 {
     color: #fff; /*Es temporal el color*/
+    
 }
-.color{color: #87c7be;}
+.color{color: #6c569f;}
 @media screen and (min-width:992px)
 {
     .bg-txt-title
@@ -112,7 +114,7 @@
 }
 .vh
 {
-    border-left:4px solid #87c7be;float:left;
+    border-left:4px solid  #5a4785;float:left;
 }
 
 @media screen and (min-width: 992px)
@@ -123,4 +125,26 @@
         height: 480px;
     }
 }
+.colores{/* color de los subtitulos */
+    text-shadow: 5px 5px 5px #b2b1b6;
+    color:#7f6eb8;
+}
+.degradado{
+   background : linear-gradient(90deg, #59c7b8 70%, #fff);
+
+}
+ .fondo{ /* aun no lo uso en algo */
+    background-image: url(../img/oc1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+ }
+
+.infcolor{/*color de letra de las cards */
+color:#87c7be;
+}
+
+
+
 
