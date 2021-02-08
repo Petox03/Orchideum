@@ -42,16 +42,17 @@
 .bg-img
 {
     background-image: url(../img/ocp.jpg);
+
+    background-attachment: fixed;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center center;
     height: 100vh;
-    
+
 }
 .bg-txt
 {
     color: #fff; /*Es temporal el color*/
-    
 }
 .color{color: #6c569f;}
 @media screen and (min-width:992px)
@@ -100,10 +101,6 @@
     transition: all 0.03 ease-in;
 }
 
-.ListIcons
-{
-    margin-left: -10px;
-}
 .ListIcons ul{
     list-style: none;
 }
@@ -114,7 +111,7 @@
 }
 .vh
 {
-    border-left:4px solid  #5a4785;float:left;
+    border-left:4px solid  #87c5bd;float:left;
 }
 
 @media screen and (min-width: 992px)
@@ -125,15 +122,12 @@
         height: 480px;
     }
 }
-.colores{/* color de los subtitulos */
+.title-color{/* color de los subtitulos */
     text-shadow: 5px 5px 5px #b2b1b6;
     color:#7f6eb8;
+    font-weight: 650;
 }
-.degradado{
-   background : linear-gradient(90deg, #59c7b8 70%, #fff);
-
-}
- .fondo{ /* aun no lo uso en algo */
+.fondo{ /* aun no lo uso en algo */
     background-image: url(../img/oc1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
