@@ -54,7 +54,7 @@
 {
     color: #fff; /*Es temporal el color*/
 }
-.color{color: #6c569f;}
+.color{color: #88d0c4;font-weight: 550;}
 @media screen and (min-width:992px)
 {
     .bg-txt-title
@@ -123,8 +123,8 @@
     }
 }
 .title-color{/* color de los subtitulos */
-    text-shadow: 5px 5px 5px #b2b1b6;
-    color:#7f6eb8;
+    text-shadow: 5px 5px 5px #e2e0e7;
+    color:#88d0c4;
     font-weight: 650;
 }
 .fondo{ /* aun no lo uso en algo */
