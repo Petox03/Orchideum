@@ -128,11 +128,7 @@
     font-weight: 650;
 }
 .fondo{ /* aun no lo uso en algo */
-    background-image: url(../img/oc1.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-
+    background-color:#88d0c4 ;
  }
 
 .infcolor{/*color de letra de las cards */
