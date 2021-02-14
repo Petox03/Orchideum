@@ -8,6 +8,7 @@
   "license": "MIT",
   "dependencies": {
     "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
     "bootstrap": "^5.0.0-beta1",
     "chart.js": "^2.9.4",
     "push.js": "^1.0.12",

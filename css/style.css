@@ -129,10 +129,52 @@
 }
 .fondo{ /* aun no lo uso en algo */
     background-color: #87c7be ;
- }
+}
 
 .infcolor{/*color de letra de las cards */
 color:#87c7be;
+}
+/*footer*/
+.footer-page{
+    background-color: #86c7bc;
+    position: relative;
+}
+
+/*Animación de los íconos*/
+.icon:hover{
+	-webkit-animation: 1s infinite pulso;
+    animation: 1s infinite pulso;
+    -webkit-animation-timing-function:ease-in-out;
+    animation-timing-function:ease-in-out;
+    filter: drop-shadow(5px 5px 10px #8b5fc5);
+}
+@-webkit-keyframes pulso{
+	0%{
+        -webkit-transform:scaleX(1);
+        transform:scaleX(1);
+    }
+    50%{
+        -webkit-transform:scale3d(0.9,0.9,0.9);
+        transform:scale3d(0.9,0.9,0.9);
+    }
+    to{
+        -webkit-transform:scaleX(1);
+        transform:scaleX(1);
+    }
+}
+@keyframes pulso{
+	0%{
+        -webkit-transform:scaleX(1);
+        transform:scaleX(1);
+    }
+    50%{
+        -webkit-transform:scale3d(0.9,0.9,0.9);
+        transform:scale3d(0.9,0.9,0.9);
+    }
+    to{
+        -webkit-transform:scaleX(1);
+        transform:scaleX(1);
+    }
 }
 
 
